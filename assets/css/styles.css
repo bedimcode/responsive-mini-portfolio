@@ -7,14 +7,16 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   /*
       Blue: hsl(207, 90%, 61%)
+      Red: hls(0, 80%, 65%)
       Purple: hsl(250, 66%, 75%)
       Pink: hsl(356, 66%, 75%)
       Teal: hsl(174, 63%, 62%)
+      Seagreen: hsl(180, 40%, 60%)
   */
 
-  --hue: 207;
-  --sat: 90%;
-  --lig: 61%;
+  --hue: 180;
+  --sat: 40%;
+  --lig: 60%;
   --first-color: hsl(var(--hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
   --title-color: hsl(var(--hue), 12%, 15%);
@@ -156,8 +158,8 @@ body.dark-theme {
 }
 
 .profile__perfil {
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
   background: linear-gradient(180deg, 
               hsla(var(--hue), var(--sat), var(--lig), 1) 0%, 
               hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
@@ -169,14 +171,14 @@ body.dark-theme {
 }
 
 .profile__perfil img {
-  width: 75px;
+
 }
 
 .profile__border {
   border: 3.5px solid var(--first-color);
   justify-self: center;
-  width: 115px;
-  height: 115px;
+  width: 135px;
+  height: 135px;
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -503,16 +505,16 @@ body.dark-theme {
     padding-top: 4rem;
   }
   .profile__border {
-    width: 135px;
-    height: 135px;
+    width: 160px;
+    height: 160px;
     margin-bottom: 1rem;
   }
   .profile__perfil {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
   }
   .profile__perfil img {
-    width: 90px;
+    width: 400px;
   }
   .profile__profession {
     margin-bottom: 1.5rem;
