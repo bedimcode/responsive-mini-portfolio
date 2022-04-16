@@ -545,3 +545,39 @@ body.dark-theme {
     margin: 4.5rem 0 2.5rem;
   }
 }
+
+
+/* POPUP */
+.popup {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  text-align: center;
+  border: solid var(--text-color-lighten) 10px;
+  border-radius: 40px / 80px;
+  padding: 10px;
+  background: white;
+}
+
+.popup .popup__btn {
+  width: 20%;
+  margin: 10px auto 1px auto;
+  border-radius: .5rem;
+  padding: .25rem .5rem;
+  text-align: center;
+  border-style: none;
+
+  background-color: var(--first-color);
+  color: #fff;
+  box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
+}
+
+.popup .popup__btn:hover {
+  background-color: var(--first-color-alt);
+}
