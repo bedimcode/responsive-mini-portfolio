@@ -284,7 +284,7 @@ body.dark-theme {
 
 /*=============== FILTERS TABS===============*/
 .filters__content {
-  margin: 2rem 0 2.5rem;
+  margin: 2rem auto 2.5rem;
   background-color: var(--text-color-lighten);
   padding: .375rem;
   border-radius: .75rem;
@@ -480,12 +480,12 @@ body.dark-theme {
 @media screen and (min-width: 776px) {
   .projects__content,
   .skills__content {
-    grid-template-columns: repeat(2, 332px);
+    grid-template-columns: repeat(3, 332px);
   }
 
   .skills__content {
     justify-content: center;
-    column-gap: 3rem;
+    column-gap: 0;
   }
 }
 
@@ -544,4 +544,16 @@ body.dark-theme {
   .footer__copy {
     margin: 4.5rem 0 2.5rem;
   }
+}
+
+.skills__link {
+  color: var(--first-color);
+}
+
+.skills__link:hover {
+  color: var(--first-color-alt);
+}
+
+.skills__link:visited {
+  color: var(--text-color)
 }
