@@ -1,0 +1,52 @@
+/* Rocker */
+.filters__content {
+  max-width: 400px;
+  margin: 2rem 2rem;
+  background-color: var(--text-color-lighten);
+  padding: .375rem;
+  border-radius: .75rem;
+  display: flex;
+  justify-content: space-between;
+  column-gap: .5rem;
+}
+
+.filters__content-dark {
+  max-width: 400px;
+  margin: 2rem 2rem;
+  background-color: hsl(var(--hue), 24%, 12%);
+  padding: .375rem;
+  border-radius: .75rem;
+  display: flex;
+  justify-content: space-between;
+  column-gap: .5rem;
+}
+
+.filters__button {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+  font-family: var(--body-font);
+  font-weight: 500;
+  border-radius: .75rem;
+  cursor: pointer;
+  background-color: transparent;
+  transition: .3s;
+}
+
+.filters__button:hover {
+  background-color: var(--body-color);
+}
+
+.filter-tab-active {
+background-color: var(--body-color);
+}
+
+@media screen and (min-width: 464px) {
+  .filters__content, .filters__content-dark {
+    width: 400px;
+    margin: 2rem auto;
+  }
+}

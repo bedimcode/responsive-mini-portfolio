@@ -1,0 +1,143 @@
+/* Theme */
+.change-theme {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.change-theme:hover {
+  color: var(--first-color);
+}
+
+/* Profile */
+.profile {
+  position: relative;
+  max-width: 750px;
+  margin: auto;
+  padding-top: 3.5rem;
+}
+  
+.profile__container {
+  row-gap: 2rem;
+}
+  
+.profile__data {
+  display: grid;
+  text-align: center;
+}
+
+.profile__perfil {
+  width: 125px;
+  height: 125px;
+  background: linear-gradient(180deg, 
+              hsla(var(--hue), var(--sat), var(--lig), 1) 0%, 
+              hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+  
+.profile__border {
+  border: 3.5px solid var(--first-color);
+  justify-self: center;
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: .75rem;
+}
+
+.profile__name {
+  font-size: var(--h2-font-size);
+}
+
+.profile__profession {
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+  
+.profile__social {
+  display: flex;
+  padding-bottom: 1em;
+  justify-content: center;
+  column-gap: .75rem;
+}
+
+.profile__social-link {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  transition: .3s;
+}
+
+.profile__social-link+.profile__social-link {
+  margin-left: 0.5em;
+}
+
+.profile__social-link:hover {
+  color: var(--first-color);
+}
+  
+.profile__info {
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  column-gap: 2.5rem;
+}
+
+.profile__info-group {
+  text-align: center;
+}
+
+.profile__info-number {
+  font-size: var(--normal-font-size);
+  margin-bottom: .25rem;
+}
+
+.profile__info-description {
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+}
+  
+.profile__buttons, 
+.profile__buttons-small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__buttons {
+  column-gap: 1rem;
+}
+
+.profile__buttons-small {
+  column-gap: .25rem;
+}
+
+/* CV Button */
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 1.15rem 1.5rem;
+  border-radius: .5rem;
+  transition: .3s;
+  box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
+}
+
+.download-button-icon {
+  font-size: 1.25rem;
+}
+
+.download-button:hover {
+  background-color: var(--first-color-alt);
+}
