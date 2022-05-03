@@ -1,7 +1,11 @@
 {
   "name": "ryan-portfolio-website",
   "version": "0.1.0",
+<<<<<<< HEAD
   "homepage": "https://rglanz.github.io",
+=======
+  "homepage": "https://rglanz.github.io"
+>>>>>>> 1cd7b83c1afacf659f74501ff3c458ca06099fac
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
