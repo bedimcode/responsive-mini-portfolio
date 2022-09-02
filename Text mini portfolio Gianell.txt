@@ -1,0 +1,98 @@
+========== HEADER PROFILE ==========
+.profile__name
+Gianell Vusy
+
+.profile__profession
+Web developer
+
+.profile__social
+https://www.instagram.com/
+https://www.linkedin.com/
+https://github.com/
+
+.profile__info-number | .profile__info-description
+7
+Years of <br> work
+
++124
+Completed <br> projects
+
+96
+Satisfied <br> customers
+
+<!-- Insert your CV -->
+
+<!-- Insert a real number plus country code -->
+https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
+
+<!-- Insert your brand name or profile -->
+https://m.me/bedimcode
+
+========== FILTERS TABS ==========
+.filters__button
+Projects
+
+Skills
+
+========== PROJECTS ==========	
+.projects__subtitle | .projects__title
+Web
+Payment Site
+
+Web
+Portfolio website
+
+Movil
+Fast food app
+
+Movil
+Travel app
+
+Design
+Music app design
+
+========== SKILLS ==========
+.skills__title
+Frontend Developer
+
+Backend Developer
+
+.skills__name | .skills__level
+HTML
+Basic
+
+CSS
+Advanced
+
+JavaScript
+Intermediate
+
+React
+Intermediate
+
+Bootstrap
+Intermediate
+
+Git
+Intermediate
+
+*****************
+
+PHP
+Intermediate
+
+MySQL
+Advance
+
+Firebase
+Intermediate
+
+Python
+Basic
+
+Node Js
+Intermediate
+
+========== FOOTER ==========
+.footer__copy
+&#169; Bedimcode. All rigths reserved
